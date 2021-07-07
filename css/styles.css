@@ -1,0 +1,187 @@
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+p {
+  color: #8f8f8f;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  color:#fbc02d;
+  text-decoration:none;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: hsl(217, 28%, 15%);
+  color: #fff;
+}
+
+.white-section {
+  background-color: hsl(216, 53%, 9%);
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item:hover{
+  color:#fbc02d;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+.navnbar-brand:hover{
+  color:#fbc02d;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: hsl(217, 28%, 15%);
+  color: #fff;
+  text-align: left;
+  padding-bottom: 11%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(0);
+  position: absolute;
+  right: 30%;
+  border-radius: 50%;
+}
+
+/* Features Section */
+
+#skills {
+  position: relative;
+}
+.skills-heading{
+  color: #fff;
+}
+.skill-title {
+  font-size: 1.5rem;
+  color: #fff;
+  padding:7% 15%;
+}
+
+.skill-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color:#fff;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: 	#fbc02d;
+}
+
+/* Testimonial Section */
+
+
+
+
+
+
+
+/* Pricing Section */
+
+#projects{
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.project-column {
+  padding: 3% 2%;
+  
+}
+.project-heading{
+  color:#fff;
+}
+.carousel-control-prev-icon{
+  color:black;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
